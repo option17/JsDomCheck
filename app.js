@@ -29,3 +29,8 @@ for (let i = 0; i < moreClassTags.length; i++) {
     for (let i = 0; i < classtags.length; i++) {
         classtags[i][`innerText`] = `hacked`;
         }
+
+        let unique = document.getElementById(`hmm`);
+        unique[`style`][`fontSize`]= `40px`;
+        unique[`style`][`fontFamily`]= `cursive`;
+       unique[`style`][`border-style`]= `solid`;
