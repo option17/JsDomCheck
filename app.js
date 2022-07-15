@@ -34,3 +34,6 @@ for (let i = 0; i < moreClassTags.length; i++) {
         unique[`style`][`fontSize`]= `40px`;
         unique[`style`][`fontFamily`]= `cursive`;
        unique[`style`][`border-style`]= `solid`;
+
+       let wow = document.getElementById(`pic`);
+       wow.setAttribute(`src`, `https://images.unsplash.com/photo-1657415802296-2e4bdb80bf45?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw3fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=800&q=60`)
